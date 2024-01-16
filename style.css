@@ -1,3 +1,9 @@
+*{
+    margin: auto;
+}
+/* main{
+    margin: auto;
+} */
 /* header section */
 /* nav is started */
  .nav-style{
@@ -290,13 +296,20 @@ padding:32px 55px 32px 32px ;
    
 }
 .input-item{
-    display: grid;
-    gap:24px ;
+    
     width: 48%;
     background-color: #fff;
 }
 .side-image{
     width: 48%;
+    position: relative;
+}
+.new-style{
+    background-color: #FF5400;
+    position: absolute;
+    bottom:40px ;
+    right:5px ;
+
 }
 
 
