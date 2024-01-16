@@ -8,7 +8,12 @@
 .sit-name{
     display: flex;
     gap: 10px;
+    align-items: center;
 } 
+.sit-logo{
+    width: 48px;
+    height: 56px;
+}
  .nav-anchor{
     display: flex;
     gap: 44px;  
@@ -244,6 +249,7 @@ padding:32px 55px 32px 32px ;
     display: flex;
     gap: 28px;
     margin-top: 100px;
+    margin-bottom:100px ;
     width:100% ;
    
 }
@@ -267,4 +273,39 @@ padding:32px 55px 32px 32px ;
     color: #131318;
     font-size: 16px;
     font-weight:700 ;
+}
+/* Why choose us end */
+/* newsletter starting */
+.input-item{
+    display: block;
+    gap: 24px;
+}
+.subscribe{
+    background-color: #FF5400 ;
+}
+/* newsletter starting */
+.input-item{
+    display: grid;
+    gap:24px ;
+}
+
+
+/* footer section */
+
+   
+ footer{
+    background-color:rgba(19, 19, 24, 0.05) ;
+   text-align: center;
+   padding:110px ; 
+ }  
+ .footer-name{
+    display: flex;
+    gap: 16px;
+   align-items: center;
+   justify-content: center;
+}
+.awasome-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
