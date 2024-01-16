@@ -1,4 +1,6 @@
 *{
+    padding: 0px;
+    border: 0px;
     margin: auto;
 }
 /* main{
@@ -151,6 +153,7 @@
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,1fr);
  }
+ 
  .item1{
    grid-column: 1/span 6;
 }
@@ -282,12 +285,30 @@ padding:32px 55px 32px 32px ;
 }
 /* Why choose us end */
 /* newsletter starting */
+.newsletter-part{
+   background-color: #FFF; 
+}
+.newsletter-description{
+    text-align: center;
+}
 .input-item{
     display: block;
     gap: 24px;
+    width: 48%;
+    background-color: #fff;
+}
+.input-text, .input-email {
+    color:rgba(19, 19, 24, 0.30) ;
+ border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+padding: 16px 250px 16px 20px;
+
 }
 .subscribe{
+    color: #FFF;
     background-color: #FF5400 ;
+    border-radius: 8px;
+    padding: 16px 250px 16px 20px;
 }
 /* newsletter starting */
 .newsletter-image{
@@ -295,11 +316,9 @@ padding:32px 55px 32px 32px ;
     gap:24px ;
    
 }
-.input-item{
+
     
-    width: 48%;
-    background-color: #fff;
-}
+ 
 .side-image{
     width: 48%;
     position: relative;
@@ -317,18 +336,28 @@ padding:32px 55px 32px 32px ;
 
    
  footer{
+    text-align: center;
     background-color:rgba(19, 19, 24, 0.05) ;
-   text-align: center;
+  
    padding:110px ; 
  }  
- .footer-name{
-    display: flex;
+.footer-name{
+    display: inline-flex;
     gap: 16px;
    align-items: center;
-   justify-content: center;
+  
 }
 .awasome-icon{
-    display: flex;
+    display: inline-flex;
     gap: 20px;
-    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* mobile @media quary */
+@media screen  and (max-width:576px) {
+    .nav-style{
+       flex-direction: column;
+    }
 }
