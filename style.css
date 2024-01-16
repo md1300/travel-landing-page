@@ -284,9 +284,19 @@ padding:32px 55px 32px 32px ;
     background-color: #FF5400 ;
 }
 /* newsletter starting */
+.newsletter-image{
+    display: flex;
+    gap:24px ;
+   
+}
 .input-item{
     display: grid;
     gap:24px ;
+    width: 48%;
+    background-color: #fff;
+}
+.side-image{
+    width: 48%;
 }
 
 
